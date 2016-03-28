@@ -1,4 +1,4 @@
-# A configurable new feed
+# A configurable news feed
 
 Uses Webpack to bundle all JavaScript and CSS dependencies.
 
