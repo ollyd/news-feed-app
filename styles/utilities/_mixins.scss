@@ -1,0 +1,12 @@
+// Vendor prefix mixin //
+// $property = Property name
+// $value = Property value
+// $prefixes = Specify vendor prefixes
+
+@mixin prefix($property, $value, $prefixes: ()) {
+  @each $prefix in $prefixes {
+    #{'-' + $prefix + '-' + $property}: $value;
+  }
+  // return
+  #{$property}: $value;
+}

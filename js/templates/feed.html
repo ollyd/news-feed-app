@@ -1,0 +1,9 @@
+<% var date = new Date(published) %>
+<div class="article">
+    <p class="title"><%= title %></p>
+    <p class="info">By <%= author %></p>
+    <p class="info"><%= date.toString().split('2016')[0] %> | <%= category %> | <%= tags %> | <%= country %></p>
+    <hr>
+    <div class="medium"><img class="medium-img" src="<%= img %>" /></div>
+    <p><%= content %></p>
+</div>

@@ -1,0 +1,67 @@
+// Styling for an article
+.article {
+    padding: 10px;
+
+    .medium {
+        position: relative;
+        width: 100%;
+        height: 500px;
+        margin: 0 0 20px 0;
+        overflow: hidden;
+
+         @media #{$media-bp} {
+            height: 425px;
+        }
+
+        @media #{$phone} {
+            height: 350px;
+        }
+    }
+
+    .medium-img {
+        @extend .thumb-img;
+
+        @media #{$media-bp} {
+            height: 80%;
+        }
+
+        @media #{$phone} {
+            height: 65%;
+        }
+    }
+
+    p.title {
+        font-size: 1.5em;
+        margin: 5px;
+        line-height: $line-height-primary;
+        overflow: hidden;
+
+        @media #{$tablet} {
+            font-size: 1.3em;
+        }
+
+        @media #{$media-bp} {
+            font-size: 1.1em;
+        }
+
+        @media #{$phone} {
+            font-size: 0.9em;
+        }
+    }
+
+    p.info {
+        font-size: 0.9em;
+        margin: 5px;
+
+         @media #{$media-bp} {
+            font-size: 0.8em;
+        }
+
+        @media #{$phone} {
+            font-size: 0.7em;
+        }
+    }
+}
+
+
+

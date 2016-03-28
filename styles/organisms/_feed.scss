@@ -1,0 +1,18 @@
+#feed-container {
+    width: 60%;
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: $color-white;
+
+    media #{$tablet} {
+        width: 85%;
+    }
+
+    @media #{$media-bp} {
+        width: 90%;
+    }
+
+    @media #{$phone} {
+        width: 100%;
+    }
+}

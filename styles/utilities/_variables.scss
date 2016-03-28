@@ -1,0 +1,22 @@
+$color-dark-gray: #4d4d4d;
+$color-light-gray: #f5f5f5;
+$color-light-blue: #009DFF;
+$color-dark-blue: #1274B2;
+$color-yellow-green: #CCCA14;
+$color-white: #fff;
+$color-font-primary: $color-dark-gray;
+$color-background-primary: $color-light-gray;
+
+$font-stack: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-weight-light: 200;
+$font-weight-primary: 300;
+$font-weight-heavy: 500;
+
+$line-height-sm: 1em;
+$line-height-primary: 1.3em;
+$line-height-lg: 2em;
+
+$phone: "(max-width: 480px)";
+$media-bp: "(min-width: 481px) and (max-width: 767px)";
+$tablet: "(min-width: 768px) and (max-width: 1023px)";
+$desktop: "(min-width: 1024px)";

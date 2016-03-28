@@ -1,0 +1,12 @@
+<% var date = new Date(published) %>
+<div class="article-list">
+    <div class="cat-date-container">
+	    <span class="category"><%= category %></span>
+	    <span class="date"><%= date.toString().split('2016')[0] %></span>
+	</div>
+    <div class="thumb"><img class="thumb-img" src="<%= img %>" /></div>
+    <p class="title"><a href="/" data-id="<%= id %>">
+        <%= title %>
+    </a></p>
+</div>
+<hr class="clearfix">

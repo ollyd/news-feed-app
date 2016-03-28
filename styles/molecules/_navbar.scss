@@ -1,0 +1,66 @@
+.nav-wrapper {
+	width: 60%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 10px 0 20px 0;
+
+    @media #{$tablet} {
+        width: 85%;
+    }
+
+    @media #{$media-bp} {
+        width: 90%;
+    }
+
+    @media #{$phone} {
+        width: 100%;
+    }
+
+    .logo {
+        color: $color-white;
+        margin: 0 auto;
+        font-weight: $font-weight-light;
+        font-size: 3em;
+
+        @media #{$phone} {
+            font-size: 1.7em;
+            padding-left: 10px;
+            position: relative;
+            bottom: 6px;
+        }
+    }
+
+    nav {
+        display: inline-block;
+        
+        @media #{$tablet} {
+            width: 75%;
+        }
+
+        li {
+            float: left;
+            
+            a {
+                display: block;
+                padding: 8px 8px 3px 8px;
+                background-color: $color-dark-gray;
+                color: $color-white;
+
+                @media #{$media-bp} {
+                    font-size: 1em;
+                }
+
+                @media #{$phone} {
+                    font-size: 0.8em;
+                    padding: 5px 5px 0px 5px;
+                }
+            }
+            a:hover {
+                color: $color-dark-blue;
+            }
+        }
+    }
+}
+
+
+

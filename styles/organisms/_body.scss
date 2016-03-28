@@ -1,0 +1,9 @@
+body {
+    background: $color-background-primary;
+    color: $color-font-primary;
+    font-family: $font-stack;
+    @include prefix(font-smoothing, antialiased, webkit moz ms);
+ 	line-height: $line-height-primary;
+ 	font-weight: $font-weight-primary;
+ 	margin: 0;
+}
